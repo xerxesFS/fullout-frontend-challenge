@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+label {
+  font-family: 'Poppins', sans-serif;
+}
+
+.test_class {
+  @apply text-blue-400;
+}

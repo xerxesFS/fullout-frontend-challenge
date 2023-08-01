@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "live-server --port=3000 --entry-file=index.html",
+    "tailwind": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "moment": "^2.29.4",
+    "tailwindcss": "^3.0.19"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1"
+  }
+}
